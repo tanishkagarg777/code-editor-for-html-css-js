@@ -1,0 +1,47 @@
+#home-div {
+    display: flex;
+    flex-direction: column;
+    height: -webkit-fill-available;
+    height: -moz-available;
+    height: 90vh;
+}
+
+#type {
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    background-color: #3a3e44;
+}
+
+#output-div {
+    background-color: white;
+    display: none;
+    flex-direction: column;
+    flex: 1;
+    z-index: 1;
+}
+
+.seekerY {
+    background-color: #3C3530;
+    height: 23px;
+    width: 100%;
+    cursor: row-resize;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.seeker-barY {
+    background-color: #ffffff;
+    width: 24px;
+    height: 2px;
+    margin: 2px 0;
+}
+
+.prevent-select {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none;/* Standard syntax */
+}

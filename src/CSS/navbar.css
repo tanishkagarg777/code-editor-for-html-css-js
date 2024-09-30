@@ -1,0 +1,75 @@
+#nav-div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#nav-heading {
+    font-family: "Nunito", sans-serif;
+    flex-grow: 1;
+    text-align: center;
+}
+
+#run-button {
+    position: absolute;
+    right: 70px;
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#run-function {
+    position: absolute;
+    right: 7.2%;
+    top: 10%;
+    background: #737373;
+    padding: 2px 11px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    opacity: 0;
+    cursor: default;
+}
+
+#spinner {
+    width: 29px;
+    right: 5%;
+    position: absolute;
+    display: none;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 800px) {
+    #run-button {
+        right: 30px;
+    }
+
+    #run-function {
+        right: 19px;
+        top: 4%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    #nav-div {
+        font-size: 19px;
+    }
+    
+    #run-button {
+        right: 20px;
+        font-size: 22px;
+    }
+
+    #run-function {
+        right: 12px;
+        top: 6%;
+        font-size: 13px;
+    }
+
+}
