@@ -82,9 +82,14 @@
 #html,
 #css,
 #js {
-    display: "flex",
+    display: flex,
 }
 
+.none-html,
+.none-css,
+.none-js {
+    display: none !important;
+}
 
 /* Responsive */
 @media only screen and (max-width: 800px) {
