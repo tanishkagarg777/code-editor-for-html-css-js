@@ -61,21 +61,24 @@ export const TypeBox = (props) => {
 
         enlarge === "fa-up-right-and-down-left-from-center" ? setEnlarge("fa-down-left-and-up-right-to-center") : setEnlarge("fa-up-right-and-down-left-from-center")
 
-        if (ref.current.id === "html") {
-            css.style.display === "flex" ? css.style.display = "none" : css.style.display = "flex"
-            js.style.display === "flex" ? js.style.display = "none" : js.style.display = "flex"
+         if (ref.current.id === "html") {
+            css.classList.contains("none-css") ? css.classList.remove("none-css") : css.classList.add("none-css");
+            js.classList.contains("none-js") ? js.classList.remove("none-js") : js.classList.add("none-js");
+
             container[0].style.width === "100%" ? container[0].style.width = "501.9px" : container[0].style.width = "100%"
             editorDiv[0].style.width === "100%" ? editorDiv[0].style.width = "501.9px" : editorDiv[0].style.width = "100%"
         }
         else if (ref.current.id === "css") {
-            html.style.display === "flex" ? html.style.display = "none" : html.style.display = "flex"
-            js.style.display === "flex" ? js.style.display = "none" : js.style.display = "flex"
+            html.classList.contains("none-html") ? html.classList.remove("none-html") : html.classList.add("none-html");
+            js.classList.contains("none-js") ? js.classList.remove("none-js") : js.classList.add("none-js");
+
             container[1].style.width === "100%" ? container[1].style.width = "501.9px" : container[1].style.width = "100%"
             editorDiv[1].style.width === "100%" ? editorDiv[1].style.width = "501.9px" : editorDiv[1].style.width = "100%"
         }
         else if (ref.current.id === "js") {
-            css.style.display === "flex" ? css.style.display = "none" : css.style.display = "flex"
-            html.style.display === "flex" ? html.style.display = "none" : html.style.display = "flex"
+            css.classList.contains("none-css") ? css.classList.remove("none-css") : css.classList.add("none-css");
+            html.classList.contains("none-html") ? html.classList.remove("none-html") : html.classList.add("none-html");
+
             container[2].style.width === "100%" ? container[2].style.width = "501.9px" : container[2].style.width = "100%"
             editorDiv[2].style.width === "100%" ? editorDiv[2].style.width = "501.9px" : editorDiv[2].style.width = "100%"
         }
