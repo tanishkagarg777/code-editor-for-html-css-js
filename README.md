@@ -37,7 +37,7 @@ Make sure you have [Node.js](https://nodejs.org/) installed on your system.
 ### Installation & Setup
 ```bash
 # Clone the repository
-git clone [https://github.com/tanishkaagarg613/code-editor-for-html-css-js.git](https://github.com/tanishkaagarg613/code-editor-for-html-css-js.git)
+git clone https://github.com/tanishkaagarg613/code-editor-for-html-css-js
 
 # Navigate into the project directory
 cd code-editor-for-html-css-js
