@@ -58,9 +58,13 @@ We're constantly trying to improve the coding experience! Here's what's coming n
 * Editor Resizer: Adding a resizable partition for the code writing area.
 * Font Resizer: Custom font size controls for improved accessibility.
 
+---
+
 ## 🤝 Credits & Inspiration
 * Concept inspired by crio.do.
 * Designed and built to match the mockups and interactive features provided in their challenge specifications.
+
+---
 
 ## 📄 License
 
